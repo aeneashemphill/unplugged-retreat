@@ -515,6 +515,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -528,6 +532,10 @@ input[type=button] {
   }
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -544,7 +552,8 @@ input[type=button] {
     flex-flow: row wrap;
   }
 
-  aside .content-wrapper .form-description, aside .content-wrapper .form {
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
     width: 40%; 
     margin: 0;
   }
@@ -562,7 +571,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
@@ -575,7 +584,7 @@ input[type=button] {
   .reviews h2 {
     width: 85%;
   }
-
+  .reviews article figure, 
   .reviews article div {
     width: 49%;
   }
@@ -658,7 +667,8 @@ input[type=button] {
     width: 100%;
   }
 
-  .faq h4, .faq p {
+  .faq h4, 
+  .faq p {
     font-size: .875em;
     line-height: 1.125;
   }
@@ -693,7 +703,8 @@ input[type=button] {
   /* Hero Area */
 
   .hero-area h1 {
-    width: 60%;
+    font-size: 3.75em;
+    width: 80%;
   }
 
   /* Aside */
@@ -702,7 +713,8 @@ input[type=button] {
     justify-content: space-around;
   }
 
-  aside .content-wrapper .form-description, aside .content-wrapper .form {
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
     width: 30%;
   }
 
@@ -722,12 +734,12 @@ input[type=button] {
 
   /* Reviews */
 
-  .reviews h2 {
-    padding-bottom: 50px;
-  }
-
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {
@@ -736,7 +748,8 @@ input[type=button] {
 
   /* ABOUT PAGE */
 
-  .mission h2, .contact-section .content-wrapper h2 {
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
   }
@@ -752,7 +765,8 @@ input[type=button] {
     font-size: 3em;
   }
 
-  .faq h4, .faq p {
+  .faq h4, 
+  .faq p {
     font-size: 1.125em;
     line-height: 1;
   }
